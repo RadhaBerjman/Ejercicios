@@ -1,0 +1,91 @@
+<!-- 
+Dentro del body, poner una etiqueta main.
+Dentro de main, poner una etiqueta header.
+Dentro de header, poner una etiqueta h1 con el texto "El mejor artículo del mundo"
+Arriba de la etiqueta h1, poner una etiqueta div
+Dentro del elemento div, poner una etiqueta timeque digaUna semana atráscon el atributodatetime` y una fecha válida.
+Debajo de header poner 4 párrafos con lorem ipsum.
+-------------------------------------------------------------------
+Debajo de los 4 párrafos, poner una section.
+Dentro de la section, poner un h2 que diga Comentarios.
+Debajo de h2, crear 4 comentarios.
+Cada comentario es un article.
+Tiene que contener un header con un h3 que contenga el nombre de quién comentó, y una etiqueta time que diga Hace 3 días con el atributo datetime y una fecha válida.
+Debajo del header, tiene que contener una etiqueta p con lorem ipsum.
+
+⚠️ Consideraciones:
+
+Poner clases a todos los elementos.
+Se puede usar lorem ipsum para todos los texto que se necesiten.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head class="head">
+<link rel="stylesheet" href="style.css">
+
+<body class="body">
+    <div class="div_1">
+        <time datetime="2023-10-01">Una semana atrás</time>
+    </div>
+    <main class="main">
+        <header class="header_1">
+            <h1>EL MEJOR ARTICULO DEL MUNDO</h1>
+        </header>
+    </main>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+
+    <section class="section_1">
+        <h2>Comentarios</h2>
+
+        <article class="article_1">
+            <header class="header_art1">
+                <h3>Andrea Fernandez</h3>
+                <time datetime="2025-05-02">Hace tres días</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore odit sint quisquam pariatur
+                    iste non fuga, autem nesciunt sequi repudiandae. Voluptate excepturi reiciendis suscipit harum! Aut
+                    cum earum fugit?</p>
+            </header>
+        </article>
+
+        <article class="article_2">
+            <header class="header_art2">
+                <h3>Sofia Quintana </h3>
+                <time datetime="2025-05-02">Hace tres días</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore odit sint quisquam pariatur
+                    iste non fuga, autem nesciunt sequi repudiandae. Voluptate excepturi reiciendis suscipit harum! Aut
+                    cum earum fugit?</p>
+            </header>
+        </article>
+
+        <article class="article_3">
+            <header class="header_art3">
+                <h3>Juana Morales </h3>
+                <time datetime="2025-05-02">Hace tres días</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore odit sint quisquam pariatur
+                    iste non fuga, autem nesciunt sequi repudiandae. Voluptate excepturi reiciendis suscipit harum! Aut
+                    cum earum fugit?</p>
+            </header>
+        </article>
+
+        <article class="article_4">
+            <header class="header_art4">
+                <h3>Pamela Cortes</h3>
+                <time datetime="2025-05-02">Hace tres días</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore odit sint quisquam pariatur
+                    iste non fuga, autem nesciunt sequi repudiandae. Voluptate excepturi reiciendis suscipit harum! Aut
+                    cum earum fugit?</p>
+            </header>
+        </article>
+    </section>
+</body>
+
+</html>

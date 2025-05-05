@@ -1,0 +1,114 @@
+<!--
+Ejercicio 3 - Landing
+🔍 Investigar la etiqueta address
+Crear la estructura HTML de una página personal (sin estilos) usando etiquetas semánticas:
+
+Un encabezado que tengan links de navegación:
+Sobre mí
+Mis Proyectos
+Contactame
+-------------------------------------
+Una sección "Sobre mí" que tenga:
+Nombre
+Párrafo con breve descripción
+--------------------------------------
+Una sección "Mis proyectos" que tenga:
+Título que diga "Mis proyectos"
+4 cards de proyectos con: imagen, título y descripción.
+Una sección "Contacto" que tenga
+Título que diga "Contactame"
+Datos de contacto que incluyan: email, telefono y página de linkedin (los datos no tienen que ser reales).
+Un pie de página que diga:
+Hecho con ❤️
+
+⚠️ Consideraciones:
+
+Analizar qué etiquetas semánticas corresponden en cada caso y cómo debería ser la estructura HTML (la descripción del ejercicio no indica cuál es exactamente).
+Se puede usar lorem ipsum para rellenar los textos.
+Las imágenes puede ser aleatorias (no tienen que estar relacionadas).
+Las imágenes pueden ser con ruta relativa o absoluta.
+Los links de navegación tienen que llegar a las respectivas secciones al ser clickeados.
+Poner clases a todos los elementos.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav>
+            <center>
+            <a href="#sobre_mi">Sobre mí</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#mis_proyectos">Mis Proyectos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#contactame">Contáctame</a>
+            </center>
+        </nav>
+    </header>
+    <section class="section_sobremi" id="sobre_mi">
+        <h1>Radha Yemayá Berjman</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+    </section>
+    <br>
+    <br>
+    <section class="section_proyectos" id="mis_proyectos">
+        <center>
+            <h2>MIS PROYECTOS:</h2>
+            <br>
+            <br>
+        </center>
+        
+        <div class="proyecto1">
+            <h3>Proyecto 1</h3>
+            <img src="assets/proyecto1.jpeg" alt="Proyecto 1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+        </div>
+        <div class="proyecto2">
+            <h3>Proyecto 2</h3>
+            <img src="assets/proyecto2.jpeg" alt="Proyecto 2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+        </div>
+        <div class="proyecto3">
+            <h3>Proyecto 3</h3>
+            <img src="assets/proyecto3.jpeg" alt="Proyecto 3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+        </div>
+        <div class="proyecto4">
+            <h3>Proyecto 4</h3>
+            <img src="assets/proyecto4.jpeg" alt="Proyecto 4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="section_contáctame" id="contactame">
+        <h3>Contáctame:</h3>
+        <address>
+            <p>Email:<a href="">radhaberjman@gmail.com</a><br>
+                Teléfono:01126283534<br>
+                Linkedin: <a href="">radhaberjman_linkedin</a>
+        </address>
+    <br>
+    <br>
+    <br>
+    <br>
+        <footer class="footer">
+            <center>
+            <p>Hecho con mucho ❤️😊</p>
+            <p>&copy;Derechos reservados. Radha Berjman 2025.</p>
+            </center>
+        </footer>
+
+</body>
+
+</html>

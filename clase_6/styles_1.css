@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #4ada70;
+    background-color: #654088cf;
     width: 1000px;
     height: 1000px;
     background-image: url("../assets/gatitobeibe.jpg");
@@ -13,28 +13,12 @@ body {
     background-attachment: scroll;
     background-position: absolute;
     background-repeat: repeat-y;
+ 
 
 }
-
-/* h1 {
-    font-size: 300%;
-    text-align: center;
-    margin: 150px auto;
-    margin-left: 350px;
-    color: #FFFFFF;
-    background: transparent;
-    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
-    color: #FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
-    position: fixed;
-    display: block;
-} */
- 
 h2 {
     margin-bottom: 25px;
 }
-
 .container {
     position: fixed;
     position: center;
@@ -44,7 +28,8 @@ h2 {
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: center;
-    margin: 150px auto;
+    margin-left: 500px;
+    margin-top: 100px;
     text-align: center;
 }
 span {
@@ -56,7 +41,23 @@ span {
     text-align: center;
     padding: 15px 10px; 
     font-size: 20px;
+    cursor: pointer;
 }
-    
 
-#imagen_fondo {}
+span:hover {
+    background-color: rgb(9, 96, 92); 
+    transition: background-color 0.4s ease; 
+    }
+    
+ #verduleria {
+    font-size: 30px;
+    text-align: center;
+    color: #0d723a;
+    background: transparent;
+    text-shadow: 1px 3px 0 #2095647b, 1px 13px 5px #2095647b;
+    color: #0d723a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    position: center;
+    display: block;
+}

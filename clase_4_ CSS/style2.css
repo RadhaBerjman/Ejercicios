@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 900px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+
+}
+
+#radhatitulo {
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+
+#berenicetitulo {
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+#rada2 {
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+#berenice2 {
+
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+#programadoras {
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+#matematicas {
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+#guitarrista {
+    font-size: 50px;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+
+h1,
+p {
+    color: #79c8c3;
+}

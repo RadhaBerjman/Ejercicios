@@ -1,0 +1,31 @@
+* {
+    
+}
+body {
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header 
+h1 {
+color: blueviolet;
+font-size: 30px;
+text-shadow: 10px 10px 6px rgba(55, 161, 206, 0.84);;
+}
+header p {
+color: brown;
+font-size: 18px;
+font-weight: 300;
+text-decoration: underline rgb(122, 45, 45);
+}
+a {
+text-decoration: none;}
+footer {
+    text-align: center; 
+    font-size: 14px;
+    background-color: rgba(128, 128, 128, 0.185)   ;
+    color: black;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px dotted black;
+}

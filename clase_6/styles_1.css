@@ -13,7 +13,7 @@ body {
     background-attachment: scroll;
     background-position: absolute;
     background-repeat: repeat-y;
- 
+    
 
 }
 h2 {
@@ -23,6 +23,7 @@ h2 {
     position: fixed;
     position: center;
     width: 250px;
+    height: 400px;
     padding: 30px;
     background-color: aquamarine;
     border-radius: 25px;
@@ -31,6 +32,15 @@ h2 {
     margin-left: 500px;
     margin-top: 100px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    
 }
 span {
     display: block;

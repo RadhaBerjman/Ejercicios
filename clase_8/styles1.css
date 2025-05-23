@@ -1,0 +1,44 @@
+/*Hacer que el body ocupe todo el alto y el ancho de la pantalla.
+Dar al body un color de fondo.
+Centrar el h1 vertical y horizontalmente.
+Dar al h1 una tipografía usando Google Fonts (p. ej. Montserrat).
+Dar al `h1 un tamaño de fuente de 40px.
+Centrar el texto.
+Poner dos breakpoints:
+Cuando la pantalla tiene menos de 900px y más de 600px, el h1 debería tener 32px de tamaño de fuente.
+Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de fuente.
+En cada breakpoint, cambiar el color de fondo del body.*/
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #424e9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(41, 161, 213);
+}
+@media screen and (min-width: 600px) and (max-width: 900px)  {
+  body {
+    background-color: #1c9b51;
+
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #80366e;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: rgb(211, 244, 19);
+  }
+}

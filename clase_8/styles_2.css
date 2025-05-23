@@ -1,0 +1,48 @@
+/*
+Dar al header un color de fondo.
+Dar a los links los siguientes estilos: tipografía, tamaño de letra y color. Sacar el subrayado que viene por defecto en los links.
+Hacer que el header esté arriba de todo de la página, que ocupe todo el ancho, y que tenga un alto fijo (p. ej.: 40px).
+Hacer que los links queden uno al lado del otro, con un poco de separación y centrados verticalmente con respecto al header.
+Hacer que los links queden alineados a la izquierda.
+Poner un breakpoint para que cuando el ancho de la pantalla esté por cubrir los links, los links se oculten y en un su lugar aparezca un ícono.
+Usar este ícono de Font Awesome.
+El ícono tiene que estar alineado a la derecha en el header.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #1bb9dc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 50px;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: rgba(178, 103, 243, 0.71);
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+   
+
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(129, 57, 193);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 18px;
+}

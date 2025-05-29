@@ -1,0 +1,19 @@
+p:nth-of-type(3){
+    color: red;
+}
+/*li:nth-child(odd) { even selecciona los inpares
+  color: red;
+}*/
+/*li:nth-child(2n+1) { even selecciona los pares
+  color: red;
+}*/
+
+li:nth-child(2n+4){
+    color: red;
+}
+.ejercicio5 p:nth-of-type(n+2) {
+    color: red;
+}
+.ejercicio6 a:nth-of-type(odd) {
+    color: red;
+}

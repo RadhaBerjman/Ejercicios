@@ -1,0 +1,139 @@
+<!--
+El portfolio debe contar con:
+Header con links de navegación
+Sección de presentación
+Sección de habilidades
+Cita
+Sección de proyectos con grilla de proyectos (*)
+Sección y formulario de contacto
+Footer con links de navegación y links de contacto
+Al clickear en los links de navegación, debe llevar a la sección correspondiente
+Al clickear en los links de contacto, debe llevar a la página externa correspondiente
+El portfolio debe tener un diseño responsivo y verse correctamente en distintos dispositivos (especialmente mobile)
+El portfolio debe estar deployado y ser accesible desde una URL
+El repositorio en GitHub debe tener un readme adecuado
+(*) Los proyectos los irás agregando a medida que los vayas finalizando en los siguientes módulos
+
+📝 Criterios de evaluación​
+Menos de 6 (No aprobado)
+6 (Aprobado)
+Estructura correcta de documento HTML
+Respeta la consigna
+Respeta el diseño dado
+Responsive funciona correctamente
+7 (Bueno)
+Buena estructura de proyecto
+Código bien indentado
+Comentarios que permiten mejorar la legibilidad del código
+8 (Muy bueno)
+Uso correcto de etiquetas semánticas
+Buenos nombres de clases
+9 (Muy bueno)
+Código CSS estructurado
+Utiliza variables CSS
+10 (Excelente)
+Cumple con criterios básicos de accesibilidad
+Los colores tienen un contraste adecuado
+Las imágenes tiene el atributo alt que corresponde
+La página tiene la información meta correspondiente
+La página tiene una semántica correcta
+Los íconos y elementos que no presentan texto agregan la información correspondiente por otros medios (etiquetas aria, texto oculto)
+Los íconos y elementos que no necesitan ser anunciados por un lector de pantalla tienen la etiqueta aria correspondiente
+Reutilización de estilos
+Commits con mensajes adecuados
+Cuenta con un favicon
+Cuenta con etiquetas para redes sociales -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Radha Delgado Berjman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        
+        <nav>
+            <img src="../assets/icono-radha-violeta.png" alt="Iliustración Radha Yemayá" class="logo">
+                <a href="#presentacion">Presentación</a>
+                <a href="#cita">Cita</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto" class="boton-contacto">Contacto</a>
+            
+        </nav>
+
+    </header>
+
+
+    <section class="presentacion" id="presentacion">
+        <h2>¡Hola!👋😁 Yo soy...</h2>
+        <h1>Radha Yemayá Berjman</h1>
+        <p>Desarrolladora apasionada por la tecnología orientada en mejorar y potenciar la vida de las personas, animales y todo lo que nos rodea. <br> También soy escritora, artesana y mixóloga. <br> Me encanta la neurociencia, la música y la gastronomía.</p>
+    </section>
+
+    <section>
+        <h2 class="cita" id="cita">Una cita que me agrada:</h2>
+            <blockquote class="cita-texto">
+                "La tecnología es mejor cuando une a las personas." <br> - Matt Mullenweg
+            </blockquote>
+    </section>
+
+ 
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades-titulo">Habilidades:</h2> 
+        <p>HTML, CSS, JavaScript, React, Node.js, entre otras.</p>
+     <div class="habilidades-iconos">
+      <i style="color:red;" i class="fa-brands fa-html5"></i>
+      <i style="color: green;" class="fa-brands fa-html5"></i>
+      <i style="color:violet;" class="fa-brands fa-html5"></i>
+      <i style="color:yellow;" class="fa-brands fa-html5"></i>
+      <i style="color:blueviolet;" class="fa-brands fa-html5"></i>
+      <i style="color: orange;" class="fa-brands fa-html5"></i>
+      <i style="color:palevioletred;" class="fa-brands fa-html5"></i>
+    </div>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+        <h2>Proyectos:</h2>
+        <!-- Aquí irían los proyectos -->
+    </section>
+
+    <section class="contacto" id="contacto">
+        
+        <h2>Contacto:</h2>
+         <section class="contacto-links">
+            <a href="https://www.linkedin.com/in/radha-delgado-berjman-587401192/" style="border-radius:50%;"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/radha-delgado-berjman" style="border-radius:50%;"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/radha.delgado.berjman/" style="border-radius:50%;"><i class="fab fa-instagram"></i></a>
+        </section>
+        
+        <p>Si deseas contactarme, por favor completa el siguiente formulario:</p>
+        <form action="https://example.com/contact" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+        <!-- Aquí iría el formulario de contacto -->
+    </section>
+
+    <footer>
+        <p>Hecho con mucho amor 💖🙃 <br>
+            &copy; 2025 Radha Delgado Berjman.
+        </p>
+    </footer>
+</body>
+</html>

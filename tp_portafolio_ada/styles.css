@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(176, 161, 161, 0.443);
+  color: #333;
+}
+/* Seccion de Cabecera */
+header {
+  background-color: rgba(141, 58, 58, 0.822);
+  padding: 10px;
+}
+/* Seccion de Navegador*/
+nav {
+  margin: 20px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+}
+nav a {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgba(176, 161, 161, 0.715);
+  text-decoration: none;
+  margin: 0 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+nav a:hover {
+  display: flex;
+  text-decoration: none;
+  color: #186b80;
+  transition: color 0.2s ease-in-out;
+  text-align: center;
+}
+.boton-contacto {
+  background-color: #186b80;
+  height: 40px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+.boton-contacto:hover {
+  background-color: #ffffff;
+  color: #186b80;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+}
+.logo{
+  width: 160px;
+  border-radius: 75px;
+}
+/* Seccion de Presentación*/
+.presentacion {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(176, 161, 161, 0.443);
+  height: 100vh;
+  gap: 20px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentacion h1 {
+  font-size: 44px;
+  font-weight: bold;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+  color: #186b80;
+}
+.presentacion p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  /*font-weight: bold;*/
+  
+}
+
+/* Seccion de Cita*/
+.cita {
+  margin: 20px;
+  padding: 20px;
+  color: rgba(141, 58, 58, 0.822);
+  font-family: "Courier New", Courier, monospace;
+}
+.cita-texto {
+  font-family: "Courier New", Courier, monospace;
+  color: #186b80;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 100px;
+  height: 70vh;
+  text-align: center;
+}
+/* Seccion de Habilidades*/
+.habilidades {
+  height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(176, 161, 161, 0.443);
+}
+.habilidades-titulo {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(141, 58, 58, 0.822);
+  margin-bottom: 10px;
+}
+.habilidades p {
+  font-size: 18px;
+  color: #186b80;
+}
+.habilidades-iconos {
+  font-size: 50px;
+  color: slateblue;
+  display: flex; 
+  gap: 20px;
+  /*justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap; */
+  max-width: 30%; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Seccion de Footer /Pie de página*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+/* Sección de proyectos */
+.proyectos {
+  height: 100vh;
+  font-size: 18px;
+  color: rgba(141, 58, 58, 0.822);
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+/* Sección de contacto */
+.contacto {
+  height: 100vh;
+  font-size: 18px;
+  color: rgba(141, 58, 58, 0.822);
+  background-color: rgba(176, 161, 161, 0.443);
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.contacto-links {
+    font-size: 30px;
+  color: #186b80;
+  
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    margin: 10px 0;
+  }
+  main {
+    padding: 10px;
+  }
+}
